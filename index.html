@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration_form</title>
+    <style>
+        body{background-color: aqua;}
+        input[type=text], input[type=password],input[type=email], textarea {width:95%; padding:10px}
+       
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+        <center><h1>Student Registration Form </h1></center>
+        <hr>
+        <label for="first name">First Name:</label><br>
+        <input type="text" id="first name" name="firstname" placeholder="First Name"><br>
+        <label for="middle name">Middle Name:</label><br>
+        <input type="text" id="middle name" name="middle name" placeholder="Middle Name"><br>
+        <label for="last name">Last Name:</label><br>
+        <input type="text" id="last name" name="last name" placeholder="Last Name"><br><br>
+    </div>
+        <div>
+        <label>Course:</label> 
+         <select>
+            <option value="course">Course</option>
+            <option value="mba">MBA</option>
+            <option value="mca">MCA</option>
+            <option value="Btech">BTECH</option>
+            <option value="mtech">MTECH</option>
+        </select>
+    </div>
+<label>Gender</label><br>
+<label>
+<input type="checkbox" value="Male" name="male">Male</label>
+<label><input type="checkbox" value="Female" name="female">Female</label>
+<label><input type="checkbox" value="other" name="other">Other</label><br>
+
+<label>Phone Number</label>
+<input type="text1" name="country code" value="+91" size="2">
+<input type="text2" name="phone no"  size="10"><br><br>
+Address <br>
+<textarea cols="50" rows="6"  value="address"></textarea><br>
+<p>Email <br><input type="email"  name="email" id="email"> </p>
+<p>Password <input type="Password"  name="Password" id="Password"> </p>
+<p>Re-type Password  <input type="password"  name="password" id="password"> </p>
+<pre><input type="button" name="submit" value="Submit">     <input type="button" name="reset" value="Reset"></pre>
+</form>
+</body>
+</html>
